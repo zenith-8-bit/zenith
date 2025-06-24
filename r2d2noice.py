@@ -1,5 +1,34 @@
 '''
 audio settings
+Sad Mood:
+
+base_frequency=700.0: A lower base pitch to convey a heavier, more somber tone.
+pitch_bend_range=200.0: Reduced pitch variation, making the sound less erratic and more subdued.
+warble_rate=3.0: Slower "dribble" or warble, contributing to a feeling of slowness or dejection.
+warble_depth=0.05: Less pronounced warble, making it less energetic.
+harmonics_strength=0.1: Lower harmonic strength for a less bright, more muted sound.
+noise_factor=0.02: Slightly increased noise for a touch of static or "weariness."
+bass_factor=0.1: A noticeable bass undertone to add to the "heavy" or "gloomy" feel.
+
+Happy Mood:
+
+base_frequency=1500.0: A higher, more cheerful base pitch.
+pitch_bend_range=800.0: Increased pitch variation for a more lively and expressive sound.
+warble_rate=15.0: Faster "dribble" for a more energetic and bubbly feel.
+warble_depth=0.2: More pronounced warble.
+harmonics_strength=0.3: Higher harmonic strength for a richer, more "sparkling" sound.
+noise_factor=0.005: Very low noise, indicating a clear, positive sound.
+bass_factor=0.0: No added bass, keeping the sound lighter.
+
+Excited Mood (Newly Added):
+
+base_frequency=1800.0: The highest base pitch for a very enthusiastic and high-energy sound.
+pitch_bend_range=1000.0: The most dramatic pitch shifts, mimicking rapid, excited vocalizations.
+warble_rate=20.0: The fastest and most intense "dribble," conveying high excitement or rapid communication.
+warble_depth=0.25: The deepest warble, making the pitch fluctuations very noticeable.
+harmonics_strength=0.4: The highest harmonic strength for a bright, almost shrill, and very metallic sound.
+noise_factor=0.01: A small amount of noise, keeping it clean but still electronic.
+bass_factor=0.0: No added bass to maintain a light and agile feel.
 '''
 
 import numpy as np
